@@ -57,3 +57,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Default header styling for all pages */
+header {
+    background-color: #333; /* Dark Grey */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Specific styling for projects.html */
+body.projects-page header {
+    background-color: #ddd; /* Light Grey */
+    color: black; /* Adjust text color for contrast */
+}
